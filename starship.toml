@@ -1,0 +1,36 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+# format = '$all'
+
+# Which is equivalent to
+
+format = """
+$username\
+$hostname\
+$localip\
+$shlvl\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$c\
+$nodejs\
+$python\
+$rust\
+$terraform\
+$memory_usage\
+$custom\
+$sudo\
+$jobs\
+$battery\
+$time\
+$status\
+$os\
+$shell\
+$character"""
+
+command_timeout = 1000
